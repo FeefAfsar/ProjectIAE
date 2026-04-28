@@ -10,6 +10,8 @@ export default function Navbar() {
         <div className="space-x-4 text-sm md:text-base font-medium">
           <Link to="/" className="hover:text-blue-200 transition">Beranda</Link>
           <Link to="/transfer" className="hover:text-blue-200 transition">Transfer</Link>
+          <Link to="/keuangan" className="hover:text-blue-200 transition">Keuangan</Link>
+          <Link to="/riwayat" className="hover:text-blue-200 transition">Riwayat</Link>
         </div>
       </div>
     </nav>
