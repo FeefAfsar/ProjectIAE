@@ -5,6 +5,7 @@ import Transfer from './pages/Transfer';
 import Login from './pages/Login';
 import Keuangan from './pages/Keuangan';
 import Riwayat from './pages/Riwayat';
+import Notifikasi from './pages/Notifikasi';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/transfer" element={<Transfer />} />
         <Route path="/keuangan" element={<Keuangan />} />
         <Route path="/riwayat" element={<Riwayat />} />
+        <Route path="/notifikasi" element={<Notifikasi />} />
       </Routes>
     </div>
   );
